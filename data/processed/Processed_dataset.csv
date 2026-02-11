@@ -1,0 +1,651 @@
+enquiry_id,hospital,consultant,procedure,enquiry_date,consultation_booked,consultation_date,Consultation_delay_days,converted,surgery_date,funnel_stage,delay_bucket,price,revenue,revenue_per_enquiry
+2001,Hospital B,Dr Michael Thompson,Endoscopy,10/02/2024,1,24/02/2024,14,0,,Consulted,8–14 Days,1800,0,0
+2002,Hospital D,Dr Priya Patel,Endoscopy,12/11/2024,1,24/11/2024,12,0,,Consulted,8–14 Days,1800,0,0
+2003,Hospital A,Dr Sarah Lewis,Gallbladder Removal,03/05/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2004,Hospital A,Dr Michael Thompson,Knee Replacement,30/05/2024,1,24/06/2024,25,0,,Consulted,15+ Days,9800,0,0
+2005,Hospital A,Dr Aisha Khan,Hip Replacement,16/01/2024,1,04/02/2024,19,0,,Consulted,15+ Days,12500,0,0
+2006,Hospital A,Dr James Carter,Colonoscopy,18/10/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2007,Hospital A,Dr Sarah Lewis,Colonoscopy,30/01/2024,1,07/02/2024,8,0,,Consulted,8–14 Days,2400,0,0
+2008,Hospital D,Dr James Carter,Hip Replacement,06/04/2024,1,08/04/2024,2,0,,Consulted,0–7 Days,12500,0,0
+2009,Hospital A,Dr Michael Thompson,Hip Replacement,29/01/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2010,Hospital C,Dr Sarah Lewis,Endoscopy,22/10/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2011,Hospital D,Dr Sarah Lewis,Endoscopy,26/05/2024,1,14/06/2024,19,1,28/06/2024,Converted,15+ Days,1800,1800,1800
+2012,Hospital B,Dr Aisha Khan,Cataract Surgery,08/06/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2013,Hospital C,Dr Sarah Lewis,Gallbladder Removal,22/11/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2014,Hospital A,Dr Aisha Khan,Hip Replacement,08/09/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2015,Hospital C,Dr Michael Thompson,Cataract Surgery,29/04/2024,1,19/05/2024,20,0,,Consulted,15+ Days,2200,0,0
+2016,Hospital D,Dr Michael Thompson,Cataract Surgery,13/09/2024,1,26/09/2024,13,0,,Consulted,8–14 Days,2200,0,0
+2017,Hospital A,Dr Daniel Wright,Hernia Repair,04/10/2024,1,22/10/2024,18,0,,Consulted,15+ Days,3200,0,0
+2018,Hospital B,Dr James Carter,Endoscopy,15/05/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2019,Hospital B,Dr Daniel Wright,Knee Replacement,01/05/2024,1,23/05/2024,22,1,13/06/2024,Converted,15+ Days,9800,9800,9800
+2020,Hospital B,Dr Aisha Khan,Knee Replacement,17/06/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2021,Hospital B,Dr Aisha Khan,Hip Replacement,29/11/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2022,Hospital C,Dr Michael Thompson,Hip Replacement,29/06/2024,1,09/07/2024,10,1,01/09/2024,Converted,8–14 Days,12500,12500,12500
+2023,Hospital C,Dr Michael Thompson,Gallbladder Removal,13/07/2024,1,21/07/2024,8,0,,Consulted,8–14 Days,6500,0,0
+2024,Hospital A,Dr Sarah Lewis,Knee Replacement,24/07/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2025,Hospital C,Dr Sarah Lewis,Knee Replacement,30/12/2024,1,21/01/2025,22,0,,Consulted,15+ Days,9800,0,0
+2026,Hospital A,Dr Aisha Khan,Gallbladder Removal,02/04/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2027,Hospital C,Dr Priya Patel,Gallbladder Removal,08/02/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2028,Hospital A,Dr Aisha Khan,Knee Replacement,01/01/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2029,Hospital D,Dr Daniel Wright,Hip Replacement,11/11/2024,1,23/11/2024,12,1,06/01/2025,Converted,8–14 Days,12500,12500,12500
+2030,Hospital A,Dr James Carter,Hip Replacement,07/09/2024,1,05/10/2024,28,0,,Consulted,15+ Days,12500,0,0
+2031,Hospital D,Dr Sarah Lewis,Hip Replacement,12/11/2024,1,20/11/2024,8,1,31/12/2024,Converted,8–14 Days,12500,12500,12500
+2032,Hospital A,Dr Daniel Wright,Endoscopy,15/04/2024,1,21/04/2024,6,0,,Consulted,0–7 Days,1800,0,0
+2033,Hospital A,Dr Priya Patel,Hernia Repair,28/07/2024,1,06/08/2024,9,0,,Consulted,8–14 Days,3200,0,0
+2034,Hospital B,Dr James Carter,Gallbladder Removal,08/10/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2035,Hospital B,Dr Daniel Wright,Hernia Repair,03/02/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2036,Hospital C,Dr Aisha Khan,Gallbladder Removal,10/05/2024,1,17/05/2024,7,1,06/06/2024,Converted,0–7 Days,6500,6500,6500
+2037,Hospital B,Dr Daniel Wright,Endoscopy,28/10/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2038,Hospital C,Dr Aisha Khan,Endoscopy,14/03/2024,1,17/03/2024,3,0,,Consulted,0–7 Days,1800,0,0
+2039,Hospital C,Dr Sarah Lewis,Gallbladder Removal,21/09/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2040,Hospital C,Dr Daniel Wright,Colonoscopy,30/11/2024,1,07/12/2024,7,0,,Consulted,0–7 Days,2400,0,0
+2041,Hospital A,Dr James Carter,Endoscopy,29/08/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2042,Hospital A,Dr Daniel Wright,Gallbladder Removal,08/06/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2043,Hospital C,Dr Sarah Lewis,Hip Replacement,22/10/2024,1,19/11/2024,28,0,,Consulted,15+ Days,12500,0,0
+2044,Hospital A,Dr Aisha Khan,Gallbladder Removal,29/09/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2045,Hospital B,Dr Aisha Khan,Knee Replacement,21/12/2024,1,16/01/2025,26,1,03/03/2025,Converted,15+ Days,9800,9800,9800
+2046,Hospital B,Dr Aisha Khan,Hip Replacement,28/09/2024,1,06/10/2024,8,0,,Consulted,8–14 Days,12500,0,0
+2047,Hospital A,Dr Aisha Khan,Colonoscopy,03/02/2024,1,28/02/2024,25,0,,Consulted,15+ Days,2400,0,0
+2048,Hospital C,Dr Daniel Wright,Endoscopy,14/04/2024,1,01/05/2024,17,1,03/06/2024,Converted,15+ Days,1800,1800,1800
+2049,Hospital D,Dr Sarah Lewis,Knee Replacement,14/01/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2050,Hospital A,Dr Aisha Khan,Hernia Repair,06/07/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2051,Hospital A,Dr Michael Thompson,Colonoscopy,28/03/2024,1,19/04/2024,22,1,02/05/2024,Converted,15+ Days,2400,2400,2400
+2052,Hospital D,Dr James Carter,Knee Replacement,18/01/2024,1,31/01/2024,13,0,,Consulted,8–14 Days,9800,0,0
+2053,Hospital B,Dr Michael Thompson,Gallbladder Removal,12/10/2024,1,08/11/2024,27,1,14/12/2024,Converted,15+ Days,6500,6500,6500
+2054,Hospital A,Dr Priya Patel,Hip Replacement,04/01/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2055,Hospital A,Dr Michael Thompson,Hip Replacement,20/11/2024,1,08/12/2024,18,0,,Consulted,15+ Days,12500,0,0
+2056,Hospital C,Dr James Carter,Colonoscopy,20/09/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2057,Hospital D,Dr Sarah Lewis,Hernia Repair,11/05/2024,1,22/05/2024,11,0,,Consulted,8–14 Days,3200,0,0
+2058,Hospital C,Dr Priya Patel,Hip Replacement,22/07/2024,1,30/07/2024,8,0,,Consulted,8–14 Days,12500,0,0
+2059,Hospital A,Dr Priya Patel,Hernia Repair,12/11/2024,1,30/11/2024,18,0,,Consulted,15+ Days,3200,0,0
+2060,Hospital C,Dr Sarah Lewis,Endoscopy,13/02/2024,1,10/03/2024,26,0,,Consulted,15+ Days,1800,0,0
+2061,Hospital A,Dr Aisha Khan,Hernia Repair,02/12/2024,1,10/12/2024,8,0,,Consulted,8–14 Days,3200,0,0
+2062,Hospital B,Dr Priya Patel,Colonoscopy,13/03/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2063,Hospital A,Dr Sarah Lewis,Hernia Repair,14/07/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2064,Hospital B,Dr Sarah Lewis,Endoscopy,17/05/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2065,Hospital A,Dr Daniel Wright,Gallbladder Removal,05/11/2024,1,29/11/2024,24,0,,Consulted,15+ Days,6500,0,0
+2066,Hospital B,Dr Sarah Lewis,Hernia Repair,24/12/2024,1,21/01/2025,28,1,12/04/2025,Converted,15+ Days,3200,3200,3200
+2067,Hospital B,Dr Aisha Khan,Colonoscopy,06/01/2024,1,27/01/2024,21,0,,Consulted,15+ Days,2400,0,0
+2068,Hospital D,Dr James Carter,Endoscopy,12/09/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2069,Hospital B,Dr Daniel Wright,Endoscopy,28/08/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2070,Hospital C,Dr Sarah Lewis,Cataract Surgery,18/11/2024,1,08/12/2024,20,1,09/01/2025,Converted,15+ Days,2200,2200,2200
+2071,Hospital D,Dr Daniel Wright,Gallbladder Removal,22/09/2024,1,20/10/2024,28,0,,Consulted,15+ Days,6500,0,0
+2072,Hospital A,Dr Priya Patel,Endoscopy,22/11/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2073,Hospital A,Dr Aisha Khan,Cataract Surgery,21/11/2024,1,19/12/2024,28,1,15/02/2025,Converted,15+ Days,2200,2200,2200
+2074,Hospital C,Dr Daniel Wright,Hip Replacement,06/01/2024,1,10/01/2024,4,1,17/03/2024,Converted,0–7 Days,12500,12500,12500
+2075,Hospital C,Dr Priya Patel,Hernia Repair,29/10/2024,1,19/11/2024,21,1,12/02/2025,Converted,15+ Days,3200,3200,3200
+2076,Hospital A,Dr Priya Patel,Gallbladder Removal,28/06/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2077,Hospital C,Dr Daniel Wright,Hernia Repair,21/02/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2078,Hospital B,Dr Priya Patel,Knee Replacement,02/11/2024,1,14/11/2024,12,0,,Consulted,8–14 Days,9800,0,0
+2079,Hospital A,Dr Priya Patel,Hip Replacement,16/12/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2080,Hospital C,Dr Daniel Wright,Gallbladder Removal,11/04/2024,1,19/04/2024,8,1,19/05/2024,Converted,8–14 Days,6500,6500,6500
+2081,Hospital C,Dr Daniel Wright,Hip Replacement,08/11/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2082,Hospital C,Dr Michael Thompson,Hip Replacement,12/12/2024,1,26/12/2024,14,1,10/01/2025,Converted,8–14 Days,12500,12500,12500
+2083,Hospital A,Dr Daniel Wright,Hip Replacement,03/03/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2084,Hospital A,Dr Aisha Khan,Gallbladder Removal,12/03/2024,1,21/03/2024,9,0,,Consulted,8–14 Days,6500,0,0
+2085,Hospital D,Dr Sarah Lewis,Hip Replacement,27/08/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2086,Hospital B,Dr Priya Patel,Cataract Surgery,25/07/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2087,Hospital D,Dr Sarah Lewis,Hip Replacement,11/01/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2088,Hospital B,Dr Daniel Wright,Endoscopy,15/11/2024,1,21/11/2024,6,1,23/12/2024,Converted,0–7 Days,1800,1800,1800
+2089,Hospital C,Dr Priya Patel,Gallbladder Removal,03/04/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2090,Hospital C,Dr Aisha Khan,Cataract Surgery,28/05/2024,1,02/06/2024,5,0,,Consulted,0–7 Days,2200,0,0
+2091,Hospital B,Dr James Carter,Hernia Repair,05/12/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2092,Hospital D,Dr Aisha Khan,Cataract Surgery,25/11/2024,1,18/12/2024,23,1,29/12/2024,Converted,15+ Days,2200,2200,2200
+2093,Hospital B,Dr Priya Patel,Gallbladder Removal,18/02/2024,1,09/03/2024,20,1,01/06/2024,Converted,15+ Days,6500,6500,6500
+2094,Hospital A,Dr Michael Thompson,Knee Replacement,15/06/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2095,Hospital C,Dr Aisha Khan,Hernia Repair,12/09/2024,1,08/10/2024,26,0,,Consulted,15+ Days,3200,0,0
+2096,Hospital C,Dr Priya Patel,Cataract Surgery,21/05/2024,1,15/06/2024,25,1,25/06/2024,Converted,15+ Days,2200,2200,2200
+2097,Hospital D,Dr Aisha Khan,Colonoscopy,20/11/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2098,Hospital C,Dr Priya Patel,Cataract Surgery,15/04/2024,1,28/04/2024,13,1,06/06/2024,Converted,8–14 Days,2200,2200,2200
+2099,Hospital A,Dr Sarah Lewis,Knee Replacement,22/10/2024,1,30/10/2024,8,0,,Consulted,8–14 Days,9800,0,0
+2100,Hospital B,Dr Aisha Khan,Knee Replacement,12/07/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2101,Hospital C,Dr Aisha Khan,Hernia Repair,24/07/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2102,Hospital D,Dr Daniel Wright,Knee Replacement,06/05/2024,1,02/06/2024,27,1,20/07/2024,Converted,15+ Days,9800,9800,9800
+2103,Hospital A,Dr Aisha Khan,Cataract Surgery,31/07/2024,1,23/08/2024,23,1,18/09/2024,Converted,15+ Days,2200,2200,2200
+2104,Hospital B,Dr Michael Thompson,Hernia Repair,06/04/2024,1,05/05/2024,29,0,,Consulted,15+ Days,3200,0,0
+2105,Hospital A,Dr Michael Thompson,Knee Replacement,01/02/2024,1,10/02/2024,9,0,,Consulted,8–14 Days,9800,0,0
+2106,Hospital C,Dr Priya Patel,Hernia Repair,23/05/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2107,Hospital D,Dr Daniel Wright,Knee Replacement,26/11/2024,1,27/11/2024,1,1,26/12/2024,Converted,0–7 Days,9800,9800,9800
+2108,Hospital D,Dr Priya Patel,Hernia Repair,09/07/2024,1,12/07/2024,3,1,10/09/2024,Converted,0–7 Days,3200,3200,3200
+2109,Hospital B,Dr Aisha Khan,Gallbladder Removal,10/12/2024,1,16/12/2024,6,0,,Consulted,0–7 Days,6500,0,0
+2110,Hospital D,Dr Aisha Khan,Colonoscopy,26/07/2024,1,05/08/2024,10,0,,Consulted,8–14 Days,2400,0,0
+2111,Hospital C,Dr James Carter,Knee Replacement,19/03/2024,1,06/04/2024,18,0,,Consulted,15+ Days,9800,0,0
+2112,Hospital D,Dr Priya Patel,Gallbladder Removal,29/02/2024,1,08/03/2024,8,1,19/03/2024,Converted,8–14 Days,6500,6500,6500
+2113,Hospital B,Dr James Carter,Endoscopy,10/02/2024,1,27/02/2024,17,0,,Consulted,15+ Days,1800,0,0
+2114,Hospital C,Dr Michael Thompson,Endoscopy,08/04/2024,1,18/04/2024,10,1,18/05/2024,Converted,8–14 Days,1800,1800,1800
+2115,Hospital A,Dr James Carter,Knee Replacement,05/11/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2116,Hospital A,Dr Priya Patel,Colonoscopy,09/01/2024,1,11/01/2024,2,0,,Consulted,0–7 Days,2400,0,0
+2117,Hospital C,Dr Aisha Khan,Endoscopy,19/06/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2118,Hospital C,Dr Michael Thompson,Knee Replacement,23/03/2024,1,13/04/2024,21,1,17/06/2024,Converted,15+ Days,9800,9800,9800
+2119,Hospital A,Dr Sarah Lewis,Endoscopy,25/05/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2120,Hospital B,Dr Aisha Khan,Gallbladder Removal,29/08/2024,1,06/09/2024,8,0,,Consulted,8–14 Days,6500,0,0
+2121,Hospital D,Dr Priya Patel,Hip Replacement,24/01/2024,1,02/02/2024,9,1,09/04/2024,Converted,8–14 Days,12500,12500,12500
+2122,Hospital B,Dr Priya Patel,Hip Replacement,14/09/2024,1,13/10/2024,29,0,,Consulted,15+ Days,12500,0,0
+2123,Hospital A,Dr Aisha Khan,Hernia Repair,24/06/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2124,Hospital D,Dr Michael Thompson,Hernia Repair,29/07/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2125,Hospital B,Dr Michael Thompson,Gallbladder Removal,09/02/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2126,Hospital D,Dr Daniel Wright,Hip Replacement,28/02/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2127,Hospital B,Dr Sarah Lewis,Endoscopy,17/06/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2128,Hospital D,Dr Michael Thompson,Hernia Repair,03/12/2024,1,27/12/2024,24,1,12/01/2025,Converted,15+ Days,3200,3200,3200
+2129,Hospital B,Dr Sarah Lewis,Colonoscopy,28/11/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2130,Hospital C,Dr James Carter,Hernia Repair,29/11/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2131,Hospital A,Dr Priya Patel,Knee Replacement,28/08/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2132,Hospital D,Dr Priya Patel,Knee Replacement,14/04/2024,1,07/05/2024,23,1,22/05/2024,Converted,15+ Days,9800,9800,9800
+2133,Hospital C,Dr Daniel Wright,Gallbladder Removal,22/10/2024,1,16/11/2024,25,1,25/12/2024,Converted,15+ Days,6500,6500,6500
+2134,Hospital C,Dr Aisha Khan,Hip Replacement,10/09/2024,1,24/09/2024,14,0,,Consulted,8–14 Days,12500,0,0
+2135,Hospital C,Dr James Carter,Hernia Repair,30/12/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2136,Hospital B,Dr Sarah Lewis,Hip Replacement,20/05/2024,1,22/05/2024,2,1,12/07/2024,Converted,0–7 Days,12500,12500,12500
+2137,Hospital B,Dr Sarah Lewis,Hip Replacement,23/11/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2138,Hospital B,Dr Sarah Lewis,Cataract Surgery,16/09/2024,1,23/09/2024,7,0,,Consulted,0–7 Days,2200,0,0
+2139,Hospital C,Dr James Carter,Knee Replacement,09/01/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2140,Hospital D,Dr Michael Thompson,Cataract Surgery,21/08/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2141,Hospital B,Dr James Carter,Knee Replacement,02/04/2024,1,26/04/2024,24,0,,Consulted,15+ Days,9800,0,0
+2142,Hospital B,Dr Sarah Lewis,Endoscopy,15/08/2024,1,12/09/2024,28,0,,Consulted,15+ Days,1800,0,0
+2143,Hospital D,Dr James Carter,Knee Replacement,18/11/2024,1,14/12/2024,26,1,11/02/2025,Converted,15+ Days,9800,9800,9800
+2144,Hospital B,Dr Sarah Lewis,Gallbladder Removal,13/11/2024,1,21/11/2024,8,1,06/12/2024,Converted,8–14 Days,6500,6500,6500
+2145,Hospital B,Dr Michael Thompson,Cataract Surgery,19/03/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2146,Hospital B,Dr James Carter,Hernia Repair,17/02/2024,1,16/03/2024,28,0,,Consulted,15+ Days,3200,0,0
+2147,Hospital D,Dr Michael Thompson,Endoscopy,16/08/2024,1,23/08/2024,7,1,18/11/2024,Converted,0–7 Days,1800,1800,1800
+2148,Hospital D,Dr James Carter,Cataract Surgery,14/11/2024,1,26/11/2024,12,1,07/02/2025,Converted,8–14 Days,2200,2200,2200
+2149,Hospital B,Dr Daniel Wright,Knee Replacement,04/10/2024,1,05/10/2024,1,1,27/12/2024,Converted,0–7 Days,9800,9800,9800
+2150,Hospital C,Dr Priya Patel,Knee Replacement,23/03/2024,1,31/03/2024,8,0,,Consulted,8–14 Days,9800,0,0
+2151,Hospital B,Dr Sarah Lewis,Colonoscopy,03/10/2024,1,12/10/2024,9,1,28/11/2024,Converted,8–14 Days,2400,2400,2400
+2152,Hospital D,Dr Daniel Wright,Cataract Surgery,02/07/2024,1,12/07/2024,10,1,01/10/2024,Converted,8–14 Days,2200,2200,2200
+2153,Hospital B,Dr James Carter,Knee Replacement,12/10/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2154,Hospital A,Dr Sarah Lewis,Cataract Surgery,19/01/2024,1,09/02/2024,21,0,,Consulted,15+ Days,2200,0,0
+2155,Hospital C,Dr Priya Patel,Cataract Surgery,31/10/2024,1,17/11/2024,17,0,,Consulted,15+ Days,2200,0,0
+2156,Hospital B,Dr Sarah Lewis,Hernia Repair,11/08/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2157,Hospital B,Dr Daniel Wright,Hip Replacement,09/10/2024,1,16/10/2024,7,0,,Consulted,0–7 Days,12500,0,0
+2158,Hospital B,Dr James Carter,Cataract Surgery,21/08/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2159,Hospital B,Dr Sarah Lewis,Endoscopy,27/04/2024,1,18/05/2024,21,0,,Consulted,15+ Days,1800,0,0
+2160,Hospital D,Dr Michael Thompson,Hernia Repair,23/02/2024,1,08/03/2024,14,0,,Consulted,8–14 Days,3200,0,0
+2161,Hospital B,Dr Sarah Lewis,Endoscopy,01/08/2024,1,29/08/2024,28,1,14/11/2024,Converted,15+ Days,1800,1800,1800
+2162,Hospital A,Dr Michael Thompson,Endoscopy,22/03/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2163,Hospital D,Dr Priya Patel,Endoscopy,15/12/2024,1,20/12/2024,5,1,14/01/2025,Converted,0–7 Days,1800,1800,1800
+2164,Hospital C,Dr Priya Patel,Knee Replacement,24/04/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2165,Hospital C,Dr Michael Thompson,Gallbladder Removal,05/11/2024,1,08/11/2024,3,0,,Consulted,0–7 Days,6500,0,0
+2166,Hospital C,Dr Michael Thompson,Colonoscopy,26/06/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2167,Hospital A,Dr Daniel Wright,Gallbladder Removal,19/10/2024,1,08/11/2024,20,1,14/12/2024,Converted,15+ Days,6500,6500,6500
+2168,Hospital A,Dr Daniel Wright,Endoscopy,18/10/2024,1,01/11/2024,14,1,16/12/2024,Converted,8–14 Days,1800,1800,1800
+2169,Hospital B,Dr Daniel Wright,Cataract Surgery,12/07/2024,1,27/07/2024,15,0,,Consulted,15+ Days,2200,0,0
+2170,Hospital B,Dr Sarah Lewis,Cataract Surgery,16/06/2024,1,22/06/2024,6,0,,Consulted,0–7 Days,2200,0,0
+2171,Hospital B,Dr James Carter,Gallbladder Removal,19/01/2024,1,17/02/2024,29,1,25/04/2024,Converted,15+ Days,6500,6500,6500
+2172,Hospital A,Dr Priya Patel,Hip Replacement,28/06/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2173,Hospital A,Dr James Carter,Cataract Surgery,12/03/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2174,Hospital D,Dr Aisha Khan,Knee Replacement,26/02/2024,1,25/03/2024,28,0,,Consulted,15+ Days,9800,0,0
+2175,Hospital B,Dr Priya Patel,Gallbladder Removal,10/01/2024,1,25/01/2024,15,1,01/04/2024,Converted,15+ Days,6500,6500,6500
+2176,Hospital B,Dr Daniel Wright,Endoscopy,05/01/2024,1,15/01/2024,10,0,,Consulted,8–14 Days,1800,0,0
+2177,Hospital B,Dr James Carter,Knee Replacement,12/03/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2178,Hospital A,Dr Aisha Khan,Gallbladder Removal,04/07/2024,1,06/07/2024,2,0,,Consulted,0–7 Days,6500,0,0
+2179,Hospital D,Dr Sarah Lewis,Hip Replacement,07/10/2024,1,01/11/2024,25,1,27/12/2024,Converted,15+ Days,12500,12500,12500
+2180,Hospital C,Dr Sarah Lewis,Colonoscopy,28/08/2024,1,23/09/2024,26,0,,Consulted,15+ Days,2400,0,0
+2181,Hospital B,Dr Sarah Lewis,Colonoscopy,31/01/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2182,Hospital A,Dr Michael Thompson,Hip Replacement,29/04/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2183,Hospital A,Dr James Carter,Gallbladder Removal,18/12/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2184,Hospital A,Dr Aisha Khan,Hip Replacement,18/11/2024,1,23/11/2024,5,0,,Consulted,0–7 Days,12500,0,0
+2185,Hospital C,Dr Michael Thompson,Hip Replacement,02/09/2024,1,26/09/2024,24,1,08/11/2024,Converted,15+ Days,12500,12500,12500
+2186,Hospital B,Dr Aisha Khan,Colonoscopy,12/07/2024,1,27/07/2024,15,0,,Consulted,15+ Days,2400,0,0
+2187,Hospital A,Dr Priya Patel,Hernia Repair,27/02/2024,1,11/03/2024,13,0,,Consulted,8–14 Days,3200,0,0
+2188,Hospital A,Dr James Carter,Cataract Surgery,01/07/2024,1,29/07/2024,28,1,22/10/2024,Converted,15+ Days,2200,2200,2200
+2189,Hospital C,Dr Priya Patel,Colonoscopy,02/01/2024,1,23/01/2024,21,1,31/03/2024,Converted,15+ Days,2400,2400,2400
+2190,Hospital C,Dr James Carter,Gallbladder Removal,02/09/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2191,Hospital B,Dr Sarah Lewis,Cataract Surgery,21/09/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2192,Hospital C,Dr Michael Thompson,Cataract Surgery,11/03/2024,1,06/04/2024,26,0,,Consulted,15+ Days,2200,0,0
+2193,Hospital B,Dr Daniel Wright,Colonoscopy,30/01/2024,1,12/02/2024,13,0,,Consulted,8–14 Days,2400,0,0
+2194,Hospital A,Dr Daniel Wright,Colonoscopy,12/03/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2195,Hospital C,Dr James Carter,Colonoscopy,19/01/2024,1,20/01/2024,1,0,,Consulted,0–7 Days,2400,0,0
+2196,Hospital C,Dr Sarah Lewis,Hip Replacement,27/10/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2197,Hospital A,Dr Aisha Khan,Endoscopy,19/02/2024,1,10/03/2024,20,1,07/05/2024,Converted,15+ Days,1800,1800,1800
+2198,Hospital B,Dr James Carter,Hip Replacement,01/10/2024,1,23/10/2024,22,0,,Consulted,15+ Days,12500,0,0
+2199,Hospital B,Dr Sarah Lewis,Knee Replacement,16/01/2024,1,20/01/2024,4,0,,Consulted,0–7 Days,9800,0,0
+2200,Hospital A,Dr Aisha Khan,Endoscopy,24/04/2024,1,25/04/2024,1,1,11/05/2024,Converted,0–7 Days,1800,1800,1800
+2201,Hospital D,Dr Daniel Wright,Colonoscopy,19/10/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2202,Hospital B,Dr Priya Patel,Gallbladder Removal,18/01/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2203,Hospital D,Dr Daniel Wright,Hernia Repair,07/12/2024,1,10/12/2024,3,0,,Consulted,0–7 Days,3200,0,0
+2204,Hospital A,Dr Daniel Wright,Colonoscopy,12/11/2024,1,11/12/2024,29,0,,Consulted,15+ Days,2400,0,0
+2205,Hospital A,Dr James Carter,Hernia Repair,07/10/2024,1,01/11/2024,25,0,,Consulted,15+ Days,3200,0,0
+2206,Hospital B,Dr Michael Thompson,Hip Replacement,21/09/2024,1,06/10/2024,15,0,,Consulted,15+ Days,12500,0,0
+2207,Hospital D,Dr Daniel Wright,Knee Replacement,01/02/2024,1,05/02/2024,4,1,03/05/2024,Converted,0–7 Days,9800,9800,9800
+2208,Hospital C,Dr Priya Patel,Colonoscopy,05/01/2024,1,06/01/2024,1,1,17/01/2024,Converted,0–7 Days,2400,2400,2400
+2209,Hospital A,Dr James Carter,Knee Replacement,22/08/2024,1,30/08/2024,8,1,21/11/2024,Converted,8–14 Days,9800,9800,9800
+2210,Hospital C,Dr Michael Thompson,Endoscopy,13/08/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2211,Hospital B,Dr Michael Thompson,Hip Replacement,14/03/2024,1,23/03/2024,9,0,,Consulted,8–14 Days,12500,0,0
+2212,Hospital D,Dr Michael Thompson,Hernia Repair,15/05/2024,1,10/06/2024,26,0,,Consulted,15+ Days,3200,0,0
+2213,Hospital D,Dr James Carter,Endoscopy,08/06/2024,1,20/06/2024,12,1,12/08/2024,Converted,8–14 Days,1800,1800,1800
+2214,Hospital D,Dr James Carter,Cataract Surgery,23/04/2024,1,29/04/2024,6,0,,Consulted,0–7 Days,2200,0,0
+2215,Hospital C,Dr Priya Patel,Hip Replacement,28/11/2024,1,20/12/2024,22,0,,Consulted,15+ Days,12500,0,0
+2216,Hospital B,Dr Aisha Khan,Knee Replacement,08/09/2024,1,02/10/2024,24,0,,Consulted,15+ Days,9800,0,0
+2217,Hospital A,Dr Aisha Khan,Colonoscopy,15/10/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2218,Hospital A,Dr Aisha Khan,Knee Replacement,09/05/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2219,Hospital D,Dr Priya Patel,Endoscopy,23/06/2024,1,02/07/2024,9,1,19/07/2024,Converted,8–14 Days,1800,1800,1800
+2220,Hospital C,Dr Aisha Khan,Colonoscopy,02/06/2024,1,23/06/2024,21,0,,Consulted,15+ Days,2400,0,0
+2221,Hospital C,Dr Sarah Lewis,Cataract Surgery,19/05/2024,1,21/05/2024,2,0,,Consulted,0–7 Days,2200,0,0
+2222,Hospital C,Dr Daniel Wright,Gallbladder Removal,29/02/2024,1,25/03/2024,25,1,27/04/2024,Converted,15+ Days,6500,6500,6500
+2223,Hospital D,Dr Daniel Wright,Colonoscopy,29/06/2024,1,27/07/2024,28,0,,Consulted,15+ Days,2400,0,0
+2224,Hospital A,Dr James Carter,Endoscopy,03/06/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2225,Hospital D,Dr Daniel Wright,Cataract Surgery,06/04/2024,1,09/04/2024,3,0,,Consulted,0–7 Days,2200,0,0
+2226,Hospital B,Dr Aisha Khan,Colonoscopy,16/05/2024,1,08/06/2024,23,1,20/07/2024,Converted,15+ Days,2400,2400,2400
+2227,Hospital C,Dr Aisha Khan,Colonoscopy,09/09/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2228,Hospital C,Dr Michael Thompson,Colonoscopy,30/12/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2229,Hospital C,Dr Priya Patel,Endoscopy,18/10/2024,1,11/11/2024,24,0,,Consulted,15+ Days,1800,0,0
+2230,Hospital C,Dr Michael Thompson,Hernia Repair,16/10/2024,1,23/10/2024,7,0,,Consulted,0–7 Days,3200,0,0
+2231,Hospital C,Dr Michael Thompson,Endoscopy,07/05/2024,1,30/05/2024,23,1,11/07/2024,Converted,15+ Days,1800,1800,1800
+2232,Hospital D,Dr Daniel Wright,Hernia Repair,14/05/2024,1,10/06/2024,27,0,,Consulted,15+ Days,3200,0,0
+2233,Hospital C,Dr James Carter,Gallbladder Removal,03/07/2024,1,08/07/2024,5,1,23/09/2024,Converted,0–7 Days,6500,6500,6500
+2234,Hospital A,Dr Daniel Wright,Cataract Surgery,02/08/2024,1,04/08/2024,2,0,,Consulted,0–7 Days,2200,0,0
+2235,Hospital B,Dr James Carter,Cataract Surgery,12/10/2024,1,26/10/2024,14,0,,Consulted,8–14 Days,2200,0,0
+2236,Hospital A,Dr Priya Patel,Hernia Repair,17/10/2024,1,14/11/2024,28,0,,Consulted,15+ Days,3200,0,0
+2237,Hospital B,Dr James Carter,Gallbladder Removal,04/01/2024,1,13/01/2024,9,1,20/01/2024,Converted,8–14 Days,6500,6500,6500
+2238,Hospital B,Dr Daniel Wright,Gallbladder Removal,22/12/2024,1,14/01/2025,23,0,,Consulted,15+ Days,6500,0,0
+2239,Hospital C,Dr Sarah Lewis,Knee Replacement,05/07/2024,1,30/07/2024,25,1,21/10/2024,Converted,15+ Days,9800,9800,9800
+2240,Hospital C,Dr Priya Patel,Hip Replacement,20/10/2024,1,15/11/2024,26,1,08/01/2025,Converted,15+ Days,12500,12500,12500
+2241,Hospital C,Dr Daniel Wright,Endoscopy,25/02/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2242,Hospital C,Dr Daniel Wright,Colonoscopy,10/05/2024,1,02/06/2024,23,1,15/07/2024,Converted,15+ Days,2400,2400,2400
+2243,Hospital B,Dr Sarah Lewis,Gallbladder Removal,02/11/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2244,Hospital A,Dr Aisha Khan,Hernia Repair,21/04/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2245,Hospital D,Dr James Carter,Endoscopy,07/05/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2246,Hospital C,Dr Sarah Lewis,Hip Replacement,06/06/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2247,Hospital B,Dr Daniel Wright,Knee Replacement,13/09/2024,1,27/09/2024,14,0,,Consulted,8–14 Days,9800,0,0
+2248,Hospital D,Dr Priya Patel,Colonoscopy,01/11/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2249,Hospital D,Dr James Carter,Cataract Surgery,10/06/2024,1,15/06/2024,5,0,,Consulted,0–7 Days,2200,0,0
+2250,Hospital D,Dr Michael Thompson,Knee Replacement,24/03/2024,1,30/03/2024,6,1,16/06/2024,Converted,0–7 Days,9800,9800,9800
+2251,Hospital C,Dr Michael Thompson,Hip Replacement,15/06/2024,1,08/07/2024,23,0,,Consulted,15+ Days,12500,0,0
+2252,Hospital D,Dr James Carter,Cataract Surgery,21/11/2024,1,22/11/2024,1,1,05/12/2024,Converted,0–7 Days,2200,2200,2200
+2253,Hospital D,Dr James Carter,Colonoscopy,07/07/2024,1,09/07/2024,2,1,29/07/2024,Converted,0–7 Days,2400,2400,2400
+2254,Hospital A,Dr James Carter,Hernia Repair,25/02/2024,1,19/03/2024,23,1,07/06/2024,Converted,15+ Days,3200,3200,3200
+2255,Hospital C,Dr Aisha Khan,Knee Replacement,10/11/2024,1,21/11/2024,11,0,,Consulted,8–14 Days,9800,0,0
+2256,Hospital B,Dr James Carter,Knee Replacement,17/10/2024,1,05/11/2024,19,0,,Consulted,15+ Days,9800,0,0
+2257,Hospital A,Dr Daniel Wright,Colonoscopy,03/09/2024,1,19/09/2024,16,0,,Consulted,15+ Days,2400,0,0
+2258,Hospital D,Dr James Carter,Hip Replacement,16/03/2024,1,02/04/2024,17,0,,Consulted,15+ Days,12500,0,0
+2259,Hospital B,Dr Sarah Lewis,Gallbladder Removal,21/07/2024,1,03/08/2024,13,1,30/10/2024,Converted,8–14 Days,6500,6500,6500
+2260,Hospital C,Dr Daniel Wright,Colonoscopy,13/10/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2261,Hospital B,Dr Michael Thompson,Endoscopy,03/11/2024,1,09/11/2024,6,1,13/01/2025,Converted,0–7 Days,1800,1800,1800
+2262,Hospital A,Dr James Carter,Gallbladder Removal,20/05/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2263,Hospital B,Dr Michael Thompson,Gallbladder Removal,08/09/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2264,Hospital B,Dr James Carter,Cataract Surgery,11/05/2024,1,01/06/2024,21,1,15/08/2024,Converted,15+ Days,2200,2200,2200
+2265,Hospital D,Dr Daniel Wright,Gallbladder Removal,22/02/2024,1,04/03/2024,11,1,21/03/2024,Converted,8–14 Days,6500,6500,6500
+2266,Hospital C,Dr Aisha Khan,Endoscopy,17/12/2024,1,19/12/2024,2,1,21/01/2025,Converted,0–7 Days,1800,1800,1800
+2267,Hospital D,Dr Daniel Wright,Hip Replacement,27/06/2024,1,19/07/2024,22,0,,Consulted,15+ Days,12500,0,0
+2268,Hospital C,Dr Michael Thompson,Gallbladder Removal,07/05/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2269,Hospital D,Dr Aisha Khan,Hip Replacement,18/03/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2270,Hospital A,Dr Sarah Lewis,Endoscopy,23/05/2024,1,25/05/2024,2,1,12/07/2024,Converted,0–7 Days,1800,1800,1800
+2271,Hospital D,Dr Aisha Khan,Hernia Repair,03/08/2024,1,28/08/2024,25,1,23/09/2024,Converted,15+ Days,3200,3200,3200
+2272,Hospital D,Dr Aisha Khan,Knee Replacement,27/08/2024,1,10/09/2024,14,1,21/11/2024,Converted,8–14 Days,9800,9800,9800
+2273,Hospital A,Dr Sarah Lewis,Hernia Repair,10/09/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2274,Hospital B,Dr Aisha Khan,Cataract Surgery,21/01/2024,1,14/02/2024,24,0,,Consulted,15+ Days,2200,0,0
+2275,Hospital D,Dr Aisha Khan,Gallbladder Removal,07/01/2024,1,25/01/2024,18,1,13/02/2024,Converted,15+ Days,6500,6500,6500
+2276,Hospital C,Dr Priya Patel,Cataract Surgery,13/11/2024,1,09/12/2024,26,1,16/01/2025,Converted,15+ Days,2200,2200,2200
+2277,Hospital B,Dr Daniel Wright,Colonoscopy,25/02/2024,1,13/03/2024,17,1,24/04/2024,Converted,15+ Days,2400,2400,2400
+2278,Hospital D,Dr Sarah Lewis,Knee Replacement,04/04/2024,1,30/04/2024,26,0,,Consulted,15+ Days,9800,0,0
+2279,Hospital C,Dr Michael Thompson,Hernia Repair,03/06/2024,1,28/06/2024,25,0,,Consulted,15+ Days,3200,0,0
+2280,Hospital C,Dr Daniel Wright,Knee Replacement,25/10/2024,1,04/11/2024,10,0,,Consulted,8–14 Days,9800,0,0
+2281,Hospital A,Dr Michael Thompson,Cataract Surgery,16/05/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2282,Hospital B,Dr Aisha Khan,Hip Replacement,15/01/2024,1,06/02/2024,22,0,,Consulted,15+ Days,12500,0,0
+2283,Hospital D,Dr Daniel Wright,Knee Replacement,25/04/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2284,Hospital C,Dr Daniel Wright,Colonoscopy,23/01/2024,1,26/01/2024,3,0,,Consulted,0–7 Days,2400,0,0
+2285,Hospital D,Dr Priya Patel,Endoscopy,16/04/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2286,Hospital D,Dr Priya Patel,Endoscopy,17/08/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2287,Hospital B,Dr Daniel Wright,Gallbladder Removal,13/12/2024,1,09/01/2025,27,0,,Consulted,15+ Days,6500,0,0
+2288,Hospital B,Dr Michael Thompson,Hernia Repair,30/06/2024,1,03/07/2024,3,1,08/09/2024,Converted,0–7 Days,3200,3200,3200
+2289,Hospital B,Dr James Carter,Knee Replacement,17/01/2024,1,07/02/2024,21,0,,Consulted,15+ Days,9800,0,0
+2290,Hospital C,Dr Priya Patel,Gallbladder Removal,29/09/2024,1,19/10/2024,20,0,,Consulted,15+ Days,6500,0,0
+2291,Hospital D,Dr Aisha Khan,Hernia Repair,06/11/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2292,Hospital D,Dr Michael Thompson,Colonoscopy,23/09/2024,1,22/10/2024,29,1,12/01/2025,Converted,15+ Days,2400,2400,2400
+2293,Hospital A,Dr Daniel Wright,Gallbladder Removal,29/07/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2294,Hospital C,Dr Daniel Wright,Colonoscopy,04/06/2024,1,28/06/2024,24,0,,Consulted,15+ Days,2400,0,0
+2295,Hospital A,Dr Daniel Wright,Colonoscopy,15/07/2024,1,31/07/2024,16,0,,Consulted,15+ Days,2400,0,0
+2296,Hospital B,Dr Aisha Khan,Endoscopy,18/10/2024,1,31/10/2024,13,1,03/12/2024,Converted,8–14 Days,1800,1800,1800
+2297,Hospital B,Dr Aisha Khan,Cataract Surgery,24/11/2024,1,03/12/2024,9,0,,Consulted,8–14 Days,2200,0,0
+2298,Hospital B,Dr Sarah Lewis,Colonoscopy,04/10/2024,1,26/10/2024,22,1,16/11/2024,Converted,15+ Days,2400,2400,2400
+2299,Hospital C,Dr Michael Thompson,Gallbladder Removal,21/08/2024,1,27/08/2024,6,1,13/09/2024,Converted,0–7 Days,6500,6500,6500
+2300,Hospital C,Dr Priya Patel,Hernia Repair,04/10/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2301,Hospital B,Dr Michael Thompson,Gallbladder Removal,23/06/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2302,Hospital C,Dr James Carter,Colonoscopy,21/08/2024,1,27/08/2024,6,0,,Consulted,0–7 Days,2400,0,0
+2303,Hospital B,Dr Michael Thompson,Knee Replacement,10/04/2024,1,12/04/2024,2,0,,Consulted,0–7 Days,9800,0,0
+2304,Hospital D,Dr Priya Patel,Hernia Repair,29/02/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2305,Hospital D,Dr Aisha Khan,Hernia Repair,08/06/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2306,Hospital B,Dr James Carter,Cataract Surgery,28/11/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2307,Hospital D,Dr Sarah Lewis,Hernia Repair,01/09/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2308,Hospital D,Dr Priya Patel,Hip Replacement,26/10/2024,1,19/11/2024,24,0,,Consulted,15+ Days,12500,0,0
+2309,Hospital A,Dr Priya Patel,Colonoscopy,15/03/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2310,Hospital B,Dr James Carter,Hernia Repair,25/12/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2311,Hospital D,Dr Michael Thompson,Knee Replacement,18/04/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2312,Hospital D,Dr James Carter,Colonoscopy,19/05/2024,1,31/05/2024,12,0,,Consulted,8–14 Days,2400,0,0
+2313,Hospital B,Dr James Carter,Hip Replacement,25/01/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2314,Hospital B,Dr Priya Patel,Hip Replacement,21/03/2024,1,27/03/2024,6,0,,Consulted,0–7 Days,12500,0,0
+2315,Hospital A,Dr Priya Patel,Endoscopy,30/07/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2316,Hospital C,Dr Aisha Khan,Colonoscopy,09/05/2024,1,14/05/2024,5,0,,Consulted,0–7 Days,2400,0,0
+2317,Hospital D,Dr Michael Thompson,Colonoscopy,05/01/2024,1,31/01/2024,26,1,13/03/2024,Converted,15+ Days,2400,2400,2400
+2318,Hospital D,Dr Priya Patel,Knee Replacement,14/09/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2319,Hospital B,Dr Michael Thompson,Cataract Surgery,23/08/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2320,Hospital C,Dr Aisha Khan,Endoscopy,23/10/2024,1,26/10/2024,3,0,,Consulted,0–7 Days,1800,0,0
+2321,Hospital B,Dr Daniel Wright,Gallbladder Removal,18/10/2024,1,09/11/2024,22,0,,Consulted,15+ Days,6500,0,0
+2322,Hospital C,Dr Priya Patel,Endoscopy,17/08/2024,1,29/08/2024,12,1,27/09/2024,Converted,8–14 Days,1800,1800,1800
+2323,Hospital A,Dr Priya Patel,Hip Replacement,25/08/2024,1,13/09/2024,19,0,,Consulted,15+ Days,12500,0,0
+2324,Hospital C,Dr Priya Patel,Hernia Repair,24/09/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2325,Hospital B,Dr James Carter,Colonoscopy,10/08/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2326,Hospital C,Dr Aisha Khan,Knee Replacement,24/12/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2327,Hospital C,Dr Priya Patel,Gallbladder Removal,11/07/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2328,Hospital B,Dr Priya Patel,Colonoscopy,06/06/2024,1,01/07/2024,25,1,20/07/2024,Converted,15+ Days,2400,2400,2400
+2329,Hospital A,Dr Aisha Khan,Hernia Repair,07/02/2024,1,14/02/2024,7,1,11/04/2024,Converted,0–7 Days,3200,3200,3200
+2330,Hospital D,Dr Michael Thompson,Hip Replacement,03/08/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2331,Hospital B,Dr Aisha Khan,Endoscopy,10/02/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2332,Hospital C,Dr Daniel Wright,Endoscopy,03/05/2024,1,17/05/2024,14,0,,Consulted,8–14 Days,1800,0,0
+2333,Hospital D,Dr Michael Thompson,Colonoscopy,18/01/2024,1,02/02/2024,15,1,30/03/2024,Converted,15+ Days,2400,2400,2400
+2334,Hospital C,Dr Priya Patel,Cataract Surgery,20/06/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2335,Hospital D,Dr James Carter,Hernia Repair,03/10/2024,1,01/11/2024,29,0,,Consulted,15+ Days,3200,0,0
+2336,Hospital C,Dr James Carter,Hip Replacement,21/07/2024,1,08/08/2024,18,1,01/09/2024,Converted,15+ Days,12500,12500,12500
+2337,Hospital A,Dr Daniel Wright,Cataract Surgery,30/03/2024,1,14/04/2024,15,1,30/06/2024,Converted,15+ Days,2200,2200,2200
+2338,Hospital C,Dr Daniel Wright,Colonoscopy,19/10/2024,1,14/11/2024,26,0,,Consulted,15+ Days,2400,0,0
+2339,Hospital B,Dr Sarah Lewis,Endoscopy,07/07/2024,1,21/07/2024,14,0,,Consulted,8–14 Days,1800,0,0
+2340,Hospital C,Dr Sarah Lewis,Cataract Surgery,18/06/2024,1,21/06/2024,3,0,,Consulted,0–7 Days,2200,0,0
+2341,Hospital D,Dr Aisha Khan,Hernia Repair,25/02/2024,1,11/03/2024,15,0,,Consulted,15+ Days,3200,0,0
+2342,Hospital B,Dr Aisha Khan,Endoscopy,31/07/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2343,Hospital B,Dr Priya Patel,Knee Replacement,21/07/2024,1,01/08/2024,11,0,,Consulted,8–14 Days,9800,0,0
+2344,Hospital A,Dr Michael Thompson,Hernia Repair,08/09/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2345,Hospital B,Dr Sarah Lewis,Hip Replacement,09/08/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2346,Hospital D,Dr Daniel Wright,Hernia Repair,02/02/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2347,Hospital C,Dr Sarah Lewis,Knee Replacement,11/05/2024,1,23/05/2024,12,0,,Consulted,8–14 Days,9800,0,0
+2348,Hospital D,Dr Priya Patel,Colonoscopy,15/01/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2349,Hospital B,Dr Aisha Khan,Gallbladder Removal,08/09/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2350,Hospital A,Dr James Carter,Colonoscopy,02/11/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2351,Hospital B,Dr Daniel Wright,Hernia Repair,23/12/2024,1,19/01/2025,27,0,,Consulted,15+ Days,3200,0,0
+2352,Hospital A,Dr Daniel Wright,Knee Replacement,26/09/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2353,Hospital D,Dr Michael Thompson,Colonoscopy,03/02/2024,1,18/02/2024,15,0,,Consulted,15+ Days,2400,0,0
+2354,Hospital C,Dr Sarah Lewis,Knee Replacement,01/10/2024,1,12/10/2024,11,1,07/12/2024,Converted,8–14 Days,9800,9800,9800
+2355,Hospital A,Dr Daniel Wright,Endoscopy,20/08/2024,1,27/08/2024,7,0,,Consulted,0–7 Days,1800,0,0
+2356,Hospital A,Dr Daniel Wright,Gallbladder Removal,08/09/2024,1,18/09/2024,10,1,12/11/2024,Converted,8–14 Days,6500,6500,6500
+2357,Hospital A,Dr Michael Thompson,Gallbladder Removal,21/09/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2358,Hospital D,Dr Priya Patel,Gallbladder Removal,04/04/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2359,Hospital B,Dr James Carter,Gallbladder Removal,27/12/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2360,Hospital B,Dr Daniel Wright,Colonoscopy,30/07/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2361,Hospital A,Dr Sarah Lewis,Gallbladder Removal,16/05/2024,1,02/06/2024,17,1,17/08/2024,Converted,15+ Days,6500,6500,6500
+2362,Hospital A,Dr Priya Patel,Knee Replacement,10/03/2024,1,19/03/2024,9,0,,Consulted,8–14 Days,9800,0,0
+2363,Hospital C,Dr Aisha Khan,Knee Replacement,03/09/2024,1,22/09/2024,19,0,,Consulted,15+ Days,9800,0,0
+2364,Hospital A,Dr Daniel Wright,Endoscopy,26/08/2024,1,18/09/2024,23,0,,Consulted,15+ Days,1800,0,0
+2365,Hospital D,Dr Michael Thompson,Gallbladder Removal,17/07/2024,1,26/07/2024,9,1,16/09/2024,Converted,8–14 Days,6500,6500,6500
+2366,Hospital B,Dr Aisha Khan,Knee Replacement,27/05/2024,1,23/06/2024,27,0,,Consulted,15+ Days,9800,0,0
+2367,Hospital A,Dr Sarah Lewis,Cataract Surgery,23/11/2024,1,08/12/2024,15,1,27/01/2025,Converted,15+ Days,2200,2200,2200
+2368,Hospital B,Dr Aisha Khan,Hernia Repair,31/01/2024,1,02/02/2024,2,1,09/04/2024,Converted,0–7 Days,3200,3200,3200
+2369,Hospital D,Dr Sarah Lewis,Cataract Surgery,28/06/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2370,Hospital B,Dr Daniel Wright,Knee Replacement,09/06/2024,1,19/06/2024,10,0,,Consulted,8–14 Days,9800,0,0
+2371,Hospital A,Dr Daniel Wright,Hip Replacement,27/06/2024,1,08/07/2024,11,1,18/08/2024,Converted,8–14 Days,12500,12500,12500
+2372,Hospital C,Dr Priya Patel,Knee Replacement,09/05/2024,1,14/05/2024,5,1,04/07/2024,Converted,0–7 Days,9800,9800,9800
+2373,Hospital B,Dr Sarah Lewis,Hernia Repair,05/06/2024,1,15/06/2024,10,1,26/06/2024,Converted,8–14 Days,3200,3200,3200
+2374,Hospital D,Dr James Carter,Gallbladder Removal,21/12/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2375,Hospital B,Dr Sarah Lewis,Cataract Surgery,26/01/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2376,Hospital B,Dr Aisha Khan,Hip Replacement,04/11/2024,1,10/11/2024,6,0,,Consulted,0–7 Days,12500,0,0
+2377,Hospital B,Dr Priya Patel,Cataract Surgery,11/08/2024,1,20/08/2024,9,0,,Consulted,8–14 Days,2200,0,0
+2378,Hospital C,Dr Michael Thompson,Hip Replacement,22/03/2024,1,15/04/2024,24,0,,Consulted,15+ Days,12500,0,0
+2379,Hospital C,Dr Priya Patel,Cataract Surgery,06/09/2024,1,01/10/2024,25,1,18/12/2024,Converted,15+ Days,2200,2200,2200
+2380,Hospital D,Dr Daniel Wright,Colonoscopy,05/09/2024,1,11/09/2024,6,0,,Consulted,0–7 Days,2400,0,0
+2381,Hospital C,Dr James Carter,Endoscopy,27/09/2024,1,24/10/2024,27,0,,Consulted,15+ Days,1800,0,0
+2382,Hospital C,Dr Daniel Wright,Knee Replacement,18/04/2024,1,27/04/2024,9,0,,Consulted,8–14 Days,9800,0,0
+2383,Hospital B,Dr Sarah Lewis,Cataract Surgery,24/11/2024,1,08/12/2024,14,1,25/01/2025,Converted,8–14 Days,2200,2200,2200
+2384,Hospital B,Dr Daniel Wright,Knee Replacement,02/09/2024,1,30/09/2024,28,1,24/12/2024,Converted,15+ Days,9800,9800,9800
+2385,Hospital C,Dr Daniel Wright,Hernia Repair,14/10/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2386,Hospital A,Dr Priya Patel,Cataract Surgery,31/05/2024,1,09/06/2024,9,1,02/08/2024,Converted,8–14 Days,2200,2200,2200
+2387,Hospital D,Dr Aisha Khan,Cataract Surgery,19/05/2024,1,06/06/2024,18,0,,Consulted,15+ Days,2200,0,0
+2388,Hospital C,Dr Aisha Khan,Hip Replacement,10/12/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2389,Hospital B,Dr Priya Patel,Hip Replacement,01/11/2024,1,06/11/2024,5,0,,Consulted,0–7 Days,12500,0,0
+2390,Hospital D,Dr Sarah Lewis,Gallbladder Removal,13/11/2024,1,15/11/2024,2,1,27/11/2024,Converted,0–7 Days,6500,6500,6500
+2391,Hospital A,Dr James Carter,Gallbladder Removal,23/02/2024,1,06/03/2024,12,1,28/03/2024,Converted,8–14 Days,6500,6500,6500
+2392,Hospital C,Dr Sarah Lewis,Hernia Repair,17/07/2024,1,26/07/2024,9,1,31/08/2024,Converted,8–14 Days,3200,3200,3200
+2393,Hospital A,Dr James Carter,Knee Replacement,22/07/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2394,Hospital B,Dr James Carter,Knee Replacement,20/06/2024,1,11/07/2024,21,1,15/08/2024,Converted,15+ Days,9800,9800,9800
+2395,Hospital B,Dr Michael Thompson,Gallbladder Removal,09/07/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2396,Hospital D,Dr Sarah Lewis,Hernia Repair,17/10/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2397,Hospital B,Dr James Carter,Hernia Repair,14/01/2024,1,06/02/2024,23,0,,Consulted,15+ Days,3200,0,0
+2398,Hospital C,Dr Sarah Lewis,Hip Replacement,08/04/2024,1,21/04/2024,13,0,,Consulted,8–14 Days,12500,0,0
+2399,Hospital B,Dr Aisha Khan,Gallbladder Removal,31/08/2024,1,27/09/2024,27,1,17/10/2024,Converted,15+ Days,6500,6500,6500
+2400,Hospital B,Dr Michael Thompson,Endoscopy,23/10/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2401,Hospital A,Dr Daniel Wright,Hernia Repair,16/09/2024,1,06/10/2024,20,0,,Consulted,15+ Days,3200,0,0
+2402,Hospital C,Dr James Carter,Hernia Repair,28/02/2024,1,22/03/2024,23,0,,Consulted,15+ Days,3200,0,0
+2403,Hospital D,Dr Sarah Lewis,Colonoscopy,20/02/2024,1,07/03/2024,16,0,,Consulted,15+ Days,2400,0,0
+2404,Hospital D,Dr Aisha Khan,Hip Replacement,05/03/2024,1,20/03/2024,15,0,,Consulted,15+ Days,12500,0,0
+2405,Hospital D,Dr Priya Patel,Hip Replacement,19/09/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2406,Hospital B,Dr Aisha Khan,Cataract Surgery,15/06/2024,1,30/06/2024,15,1,12/08/2024,Converted,15+ Days,2200,2200,2200
+2407,Hospital C,Dr Priya Patel,Hip Replacement,26/02/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2408,Hospital D,Dr Daniel Wright,Gallbladder Removal,27/06/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2409,Hospital A,Dr James Carter,Colonoscopy,26/08/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2410,Hospital B,Dr Priya Patel,Knee Replacement,07/09/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2411,Hospital D,Dr Priya Patel,Knee Replacement,02/05/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2412,Hospital B,Dr Priya Patel,Knee Replacement,21/07/2024,1,24/07/2024,3,1,06/08/2024,Converted,0–7 Days,9800,9800,9800
+2413,Hospital A,Dr Priya Patel,Knee Replacement,11/01/2024,1,02/02/2024,22,0,,Consulted,15+ Days,9800,0,0
+2414,Hospital B,Dr James Carter,Hip Replacement,18/04/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2415,Hospital A,Dr Priya Patel,Hernia Repair,25/09/2024,1,13/10/2024,18,0,,Consulted,15+ Days,3200,0,0
+2416,Hospital D,Dr Sarah Lewis,Gallbladder Removal,29/09/2024,1,02/10/2024,3,1,15/12/2024,Converted,0–7 Days,6500,6500,6500
+2417,Hospital C,Dr Michael Thompson,Colonoscopy,01/12/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2418,Hospital D,Dr Aisha Khan,Endoscopy,09/07/2024,1,26/07/2024,17,1,28/09/2024,Converted,15+ Days,1800,1800,1800
+2419,Hospital B,Dr Sarah Lewis,Knee Replacement,21/08/2024,1,30/08/2024,9,0,,Consulted,8–14 Days,9800,0,0
+2420,Hospital C,Dr Michael Thompson,Cataract Surgery,17/12/2024,1,18/12/2024,1,1,21/01/2025,Converted,0–7 Days,2200,2200,2200
+2421,Hospital C,Dr Aisha Khan,Colonoscopy,23/01/2024,1,13/02/2024,21,0,,Consulted,15+ Days,2400,0,0
+2422,Hospital A,Dr Aisha Khan,Colonoscopy,24/12/2024,1,11/01/2025,18,1,02/04/2025,Converted,15+ Days,2400,2400,2400
+2423,Hospital D,Dr Aisha Khan,Hip Replacement,14/07/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2424,Hospital D,Dr Aisha Khan,Hernia Repair,01/03/2024,1,03/03/2024,2,0,,Consulted,0–7 Days,3200,0,0
+2425,Hospital C,Dr Priya Patel,Colonoscopy,23/05/2024,1,07/06/2024,15,0,,Consulted,15+ Days,2400,0,0
+2426,Hospital D,Dr Aisha Khan,Cataract Surgery,15/01/2024,1,05/02/2024,21,0,,Consulted,15+ Days,2200,0,0
+2427,Hospital B,Dr James Carter,Cataract Surgery,02/05/2024,1,30/05/2024,28,0,,Consulted,15+ Days,2200,0,0
+2428,Hospital D,Dr Daniel Wright,Cataract Surgery,17/11/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2429,Hospital A,Dr Michael Thompson,Cataract Surgery,18/03/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2430,Hospital C,Dr Priya Patel,Gallbladder Removal,16/07/2024,1,26/07/2024,10,0,,Consulted,8–14 Days,6500,0,0
+2431,Hospital A,Dr Priya Patel,Colonoscopy,22/04/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2432,Hospital B,Dr Daniel Wright,Cataract Surgery,30/08/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2433,Hospital A,Dr Daniel Wright,Gallbladder Removal,01/08/2024,1,28/08/2024,27,0,,Consulted,15+ Days,6500,0,0
+2434,Hospital D,Dr Michael Thompson,Hernia Repair,21/07/2024,1,24/07/2024,3,1,06/10/2024,Converted,0–7 Days,3200,3200,3200
+2435,Hospital A,Dr Michael Thompson,Hip Replacement,05/11/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2436,Hospital B,Dr James Carter,Hip Replacement,28/03/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2437,Hospital C,Dr Priya Patel,Colonoscopy,24/02/2024,1,27/02/2024,3,1,14/04/2024,Converted,0–7 Days,2400,2400,2400
+2438,Hospital C,Dr Aisha Khan,Gallbladder Removal,14/04/2024,1,08/05/2024,24,1,03/06/2024,Converted,15+ Days,6500,6500,6500
+2439,Hospital A,Dr Priya Patel,Colonoscopy,03/07/2024,1,05/07/2024,2,0,,Consulted,0–7 Days,2400,0,0
+2440,Hospital B,Dr Daniel Wright,Cataract Surgery,07/01/2024,1,27/01/2024,20,0,,Consulted,15+ Days,2200,0,0
+2441,Hospital B,Dr James Carter,Hip Replacement,27/07/2024,1,24/08/2024,28,1,21/09/2024,Converted,15+ Days,12500,12500,12500
+2442,Hospital B,Dr Daniel Wright,Cataract Surgery,13/09/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2443,Hospital A,Dr Daniel Wright,Hip Replacement,09/11/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2444,Hospital D,Dr Sarah Lewis,Hip Replacement,10/05/2024,1,22/05/2024,12,1,13/07/2024,Converted,8–14 Days,12500,12500,12500
+2445,Hospital B,Dr Priya Patel,Gallbladder Removal,01/03/2024,1,19/03/2024,18,0,,Consulted,15+ Days,6500,0,0
+2446,Hospital C,Dr Daniel Wright,Colonoscopy,05/02/2024,1,10/02/2024,5,1,25/02/2024,Converted,0–7 Days,2400,2400,2400
+2447,Hospital A,Dr James Carter,Gallbladder Removal,16/11/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2448,Hospital A,Dr James Carter,Cataract Surgery,17/11/2024,1,28/11/2024,11,1,10/02/2025,Converted,8–14 Days,2200,2200,2200
+2449,Hospital B,Dr Michael Thompson,Cataract Surgery,29/12/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2450,Hospital C,Dr Michael Thompson,Colonoscopy,27/08/2024,1,15/09/2024,19,1,25/11/2024,Converted,15+ Days,2400,2400,2400
+2451,Hospital D,Dr Daniel Wright,Hernia Repair,27/02/2024,1,27/03/2024,29,0,,Consulted,15+ Days,3200,0,0
+2452,Hospital B,Dr Aisha Khan,Cataract Surgery,11/01/2024,1,30/01/2024,19,1,23/02/2024,Converted,15+ Days,2200,2200,2200
+2453,Hospital A,Dr James Carter,Endoscopy,22/04/2024,1,26/04/2024,4,1,21/05/2024,Converted,0–7 Days,1800,1800,1800
+2454,Hospital C,Dr Daniel Wright,Hip Replacement,25/09/2024,1,27/09/2024,2,0,,Consulted,0–7 Days,12500,0,0
+2455,Hospital C,Dr Daniel Wright,Hip Replacement,14/04/2024,1,07/05/2024,23,0,,Consulted,15+ Days,12500,0,0
+2456,Hospital B,Dr Priya Patel,Knee Replacement,28/11/2024,1,20/12/2024,22,0,,Consulted,15+ Days,9800,0,0
+2457,Hospital D,Dr Priya Patel,Hip Replacement,10/04/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2458,Hospital C,Dr Aisha Khan,Hernia Repair,23/02/2024,1,13/03/2024,19,1,22/03/2024,Converted,15+ Days,3200,3200,3200
+2459,Hospital D,Dr Priya Patel,Gallbladder Removal,02/03/2024,1,15/03/2024,13,1,25/05/2024,Converted,8–14 Days,6500,6500,6500
+2460,Hospital C,Dr James Carter,Endoscopy,06/09/2024,1,23/09/2024,17,0,,Consulted,15+ Days,1800,0,0
+2461,Hospital D,Dr Sarah Lewis,Endoscopy,16/10/2024,1,03/11/2024,18,0,,Consulted,15+ Days,1800,0,0
+2462,Hospital C,Dr Aisha Khan,Cataract Surgery,14/08/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2463,Hospital A,Dr James Carter,Cataract Surgery,09/12/2024,1,05/01/2025,27,0,,Consulted,15+ Days,2200,0,0
+2464,Hospital B,Dr Michael Thompson,Endoscopy,31/05/2024,1,20/06/2024,20,1,09/07/2024,Converted,15+ Days,1800,1800,1800
+2465,Hospital A,Dr Daniel Wright,Cataract Surgery,23/02/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2466,Hospital D,Dr James Carter,Colonoscopy,31/03/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2467,Hospital A,Dr James Carter,Hernia Repair,25/02/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2468,Hospital D,Dr James Carter,Colonoscopy,19/09/2024,1,18/10/2024,29,0,,Consulted,15+ Days,2400,0,0
+2469,Hospital C,Dr Aisha Khan,Cataract Surgery,12/05/2024,1,31/05/2024,19,1,15/08/2024,Converted,15+ Days,2200,2200,2200
+2470,Hospital A,Dr Priya Patel,Cataract Surgery,03/11/2024,1,14/11/2024,11,0,,Consulted,8–14 Days,2200,0,0
+2471,Hospital B,Dr Priya Patel,Gallbladder Removal,25/02/2024,1,20/03/2024,24,0,,Consulted,15+ Days,6500,0,0
+2472,Hospital B,Dr Michael Thompson,Gallbladder Removal,15/12/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2473,Hospital A,Dr Daniel Wright,Colonoscopy,04/04/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2474,Hospital D,Dr James Carter,Knee Replacement,17/12/2024,1,01/01/2025,15,1,10/03/2025,Converted,15+ Days,9800,9800,9800
+2475,Hospital C,Dr Michael Thompson,Cataract Surgery,02/05/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2476,Hospital A,Dr Sarah Lewis,Knee Replacement,20/05/2024,1,15/06/2024,26,1,22/07/2024,Converted,15+ Days,9800,9800,9800
+2477,Hospital A,Dr Priya Patel,Colonoscopy,27/07/2024,1,21/08/2024,25,1,12/10/2024,Converted,15+ Days,2400,2400,2400
+2478,Hospital C,Dr Daniel Wright,Hernia Repair,09/08/2024,1,29/08/2024,20,0,,Consulted,15+ Days,3200,0,0
+2479,Hospital D,Dr Daniel Wright,Colonoscopy,14/06/2024,1,19/06/2024,5,1,25/07/2024,Converted,0–7 Days,2400,2400,2400
+2480,Hospital D,Dr Daniel Wright,Cataract Surgery,24/11/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2481,Hospital A,Dr Priya Patel,Cataract Surgery,26/10/2024,1,16/11/2024,21,0,,Consulted,15+ Days,2200,0,0
+2482,Hospital B,Dr Priya Patel,Hernia Repair,18/09/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2483,Hospital D,Dr Aisha Khan,Hernia Repair,15/09/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2484,Hospital B,Dr Sarah Lewis,Colonoscopy,14/04/2024,1,17/04/2024,3,0,,Consulted,0–7 Days,2400,0,0
+2485,Hospital C,Dr Daniel Wright,Hernia Repair,03/04/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2486,Hospital B,Dr Sarah Lewis,Hernia Repair,02/12/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2487,Hospital B,Dr James Carter,Gallbladder Removal,18/06/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2488,Hospital D,Dr Sarah Lewis,Colonoscopy,08/12/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2489,Hospital A,Dr James Carter,Colonoscopy,28/06/2024,1,16/07/2024,18,0,,Consulted,15+ Days,2400,0,0
+2490,Hospital B,Dr Priya Patel,Cataract Surgery,19/10/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2491,Hospital A,Dr Aisha Khan,Hernia Repair,14/11/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2492,Hospital B,Dr Aisha Khan,Endoscopy,10/03/2024,1,23/03/2024,13,0,,Consulted,8–14 Days,1800,0,0
+2493,Hospital B,Dr James Carter,Gallbladder Removal,30/05/2024,1,21/06/2024,22,0,,Consulted,15+ Days,6500,0,0
+2494,Hospital C,Dr Michael Thompson,Colonoscopy,05/12/2024,1,14/12/2024,9,1,08/01/2025,Converted,8–14 Days,2400,2400,2400
+2495,Hospital C,Dr Priya Patel,Cataract Surgery,18/09/2024,1,16/10/2024,28,0,,Consulted,15+ Days,2200,0,0
+2496,Hospital B,Dr Aisha Khan,Hernia Repair,29/08/2024,1,06/09/2024,8,1,21/10/2024,Converted,8–14 Days,3200,3200,3200
+2497,Hospital A,Dr Aisha Khan,Cataract Surgery,25/10/2024,1,23/11/2024,29,1,04/02/2025,Converted,15+ Days,2200,2200,2200
+2498,Hospital C,Dr Sarah Lewis,Cataract Surgery,01/05/2024,1,21/05/2024,20,0,,Consulted,15+ Days,2200,0,0
+2499,Hospital C,Dr Michael Thompson,Endoscopy,16/09/2024,1,12/10/2024,26,0,,Consulted,15+ Days,1800,0,0
+2500,Hospital D,Dr James Carter,Knee Replacement,03/02/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2501,Hospital B,Dr Michael Thompson,Gallbladder Removal,08/11/2024,1,16/11/2024,8,0,,Consulted,8–14 Days,6500,0,0
+2502,Hospital A,Dr Priya Patel,Colonoscopy,07/02/2024,1,14/02/2024,7,0,,Consulted,0–7 Days,2400,0,0
+2503,Hospital B,Dr Sarah Lewis,Hernia Repair,18/03/2024,1,27/03/2024,9,0,,Consulted,8–14 Days,3200,0,0
+2504,Hospital A,Dr James Carter,Knee Replacement,18/10/2024,1,08/11/2024,21,0,,Consulted,15+ Days,9800,0,0
+2505,Hospital C,Dr Michael Thompson,Endoscopy,07/10/2024,1,21/10/2024,14,0,,Consulted,8–14 Days,1800,0,0
+2506,Hospital A,Dr Aisha Khan,Colonoscopy,24/12/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2507,Hospital A,Dr Michael Thompson,Cataract Surgery,05/03/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2508,Hospital C,Dr Sarah Lewis,Hernia Repair,12/11/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2509,Hospital A,Dr Priya Patel,Hip Replacement,04/10/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2510,Hospital B,Dr Sarah Lewis,Knee Replacement,05/06/2024,1,23/06/2024,18,0,,Consulted,15+ Days,9800,0,0
+2511,Hospital D,Dr James Carter,Knee Replacement,19/07/2024,1,05/08/2024,17,1,13/09/2024,Converted,15+ Days,9800,9800,9800
+2512,Hospital B,Dr Sarah Lewis,Cataract Surgery,24/03/2024,1,12/04/2024,19,1,27/05/2024,Converted,15+ Days,2200,2200,2200
+2513,Hospital C,Dr Daniel Wright,Cataract Surgery,04/02/2024,1,21/02/2024,17,0,,Consulted,15+ Days,2200,0,0
+2514,Hospital D,Dr Aisha Khan,Cataract Surgery,24/11/2024,1,30/11/2024,6,0,,Consulted,0–7 Days,2200,0,0
+2515,Hospital A,Dr James Carter,Gallbladder Removal,09/09/2024,1,03/10/2024,24,0,,Consulted,15+ Days,6500,0,0
+2516,Hospital C,Dr Sarah Lewis,Hip Replacement,30/05/2024,1,13/06/2024,14,0,,Consulted,8–14 Days,12500,0,0
+2517,Hospital D,Dr James Carter,Endoscopy,22/10/2024,1,12/11/2024,21,0,,Consulted,15+ Days,1800,0,0
+2518,Hospital B,Dr Sarah Lewis,Gallbladder Removal,13/11/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2519,Hospital B,Dr Priya Patel,Cataract Surgery,03/04/2024,1,30/04/2024,27,1,30/05/2024,Converted,15+ Days,2200,2200,2200
+2520,Hospital D,Dr Priya Patel,Hernia Repair,27/07/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2521,Hospital C,Dr Aisha Khan,Colonoscopy,18/01/2024,1,31/01/2024,13,0,,Consulted,8–14 Days,2400,0,0
+2522,Hospital D,Dr Michael Thompson,Gallbladder Removal,10/10/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2523,Hospital D,Dr Michael Thompson,Knee Replacement,06/10/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2524,Hospital D,Dr Aisha Khan,Knee Replacement,08/10/2024,1,12/10/2024,4,0,,Consulted,0–7 Days,9800,0,0
+2525,Hospital C,Dr James Carter,Hernia Repair,26/03/2024,1,28/03/2024,2,1,23/05/2024,Converted,0–7 Days,3200,3200,3200
+2526,Hospital D,Dr Michael Thompson,Colonoscopy,25/10/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2527,Hospital B,Dr Sarah Lewis,Endoscopy,30/06/2024,1,24/07/2024,24,0,,Consulted,15+ Days,1800,0,0
+2528,Hospital D,Dr Aisha Khan,Knee Replacement,10/10/2024,1,15/10/2024,5,0,,Consulted,0–7 Days,9800,0,0
+2529,Hospital C,Dr Sarah Lewis,Hip Replacement,08/09/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2530,Hospital D,Dr James Carter,Endoscopy,24/03/2024,1,20/04/2024,27,1,08/06/2024,Converted,15+ Days,1800,1800,1800
+2531,Hospital D,Dr James Carter,Hip Replacement,11/12/2024,1,08/01/2025,28,1,05/03/2025,Converted,15+ Days,12500,12500,12500
+2532,Hospital C,Dr Sarah Lewis,Cataract Surgery,27/11/2024,1,02/12/2024,5,1,23/01/2025,Converted,0–7 Days,2200,2200,2200
+2533,Hospital A,Dr Aisha Khan,Hernia Repair,19/08/2024,1,15/09/2024,27,0,,Consulted,15+ Days,3200,0,0
+2534,Hospital A,Dr Daniel Wright,Cataract Surgery,18/03/2024,1,02/04/2024,15,0,,Consulted,15+ Days,2200,0,0
+2535,Hospital B,Dr Sarah Lewis,Hip Replacement,27/11/2024,1,11/12/2024,14,1,30/12/2024,Converted,8–14 Days,12500,12500,12500
+2536,Hospital C,Dr Michael Thompson,Endoscopy,14/10/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2537,Hospital B,Dr Michael Thompson,Hernia Repair,14/03/2024,1,26/03/2024,12,1,20/05/2024,Converted,8–14 Days,3200,3200,3200
+2538,Hospital D,Dr Michael Thompson,Cataract Surgery,21/05/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2539,Hospital C,Dr Daniel Wright,Cataract Surgery,30/09/2024,1,14/10/2024,14,1,25/10/2024,Converted,8–14 Days,2200,2200,2200
+2540,Hospital A,Dr Michael Thompson,Knee Replacement,26/09/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2541,Hospital C,Dr Michael Thompson,Gallbladder Removal,28/01/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2542,Hospital D,Dr Sarah Lewis,Endoscopy,04/04/2024,1,06/04/2024,2,0,,Consulted,0–7 Days,1800,0,0
+2543,Hospital A,Dr Sarah Lewis,Colonoscopy,24/01/2024,1,31/01/2024,7,1,08/02/2024,Converted,0–7 Days,2400,2400,2400
+2544,Hospital B,Dr James Carter,Knee Replacement,11/02/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2545,Hospital D,Dr Aisha Khan,Colonoscopy,19/10/2024,1,15/11/2024,27,1,06/02/2025,Converted,15+ Days,2400,2400,2400
+2546,Hospital D,Dr Michael Thompson,Hip Replacement,08/06/2024,1,16/06/2024,8,0,,Consulted,8–14 Days,12500,0,0
+2547,Hospital B,Dr Daniel Wright,Endoscopy,02/07/2024,1,22/07/2024,20,1,07/08/2024,Converted,15+ Days,1800,1800,1800
+2548,Hospital C,Dr Priya Patel,Endoscopy,26/05/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2549,Hospital A,Dr James Carter,Colonoscopy,25/11/2024,1,01/12/2024,6,0,,Consulted,0–7 Days,2400,0,0
+2550,Hospital C,Dr Aisha Khan,Knee Replacement,14/10/2024,1,15/10/2024,1,0,,Consulted,0–7 Days,9800,0,0
+2551,Hospital C,Dr James Carter,Hernia Repair,18/12/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2552,Hospital A,Dr Aisha Khan,Cataract Surgery,31/03/2024,1,05/04/2024,5,0,,Consulted,0–7 Days,2200,0,0
+2553,Hospital A,Dr Daniel Wright,Gallbladder Removal,17/06/2024,1,10/07/2024,23,0,,Consulted,15+ Days,6500,0,0
+2554,Hospital A,Dr Michael Thompson,Hernia Repair,03/09/2024,1,26/09/2024,23,0,,Consulted,15+ Days,3200,0,0
+2555,Hospital B,Dr Sarah Lewis,Gallbladder Removal,03/08/2024,1,19/08/2024,16,1,31/08/2024,Converted,15+ Days,6500,6500,6500
+2556,Hospital A,Dr Sarah Lewis,Gallbladder Removal,23/03/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2557,Hospital B,Dr Sarah Lewis,Endoscopy,08/08/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2558,Hospital A,Dr Michael Thompson,Hernia Repair,30/03/2024,1,11/04/2024,12,1,26/06/2024,Converted,8–14 Days,3200,3200,3200
+2559,Hospital A,Dr Michael Thompson,Gallbladder Removal,18/01/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2560,Hospital D,Dr Sarah Lewis,Knee Replacement,22/08/2024,1,09/09/2024,18,0,,Consulted,15+ Days,9800,0,0
+2561,Hospital C,Dr Aisha Khan,Hernia Repair,23/11/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2562,Hospital C,Dr Daniel Wright,Hernia Repair,28/05/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2563,Hospital D,Dr Michael Thompson,Gallbladder Removal,19/02/2024,1,19/03/2024,29,1,17/05/2024,Converted,15+ Days,6500,6500,6500
+2564,Hospital B,Dr Daniel Wright,Gallbladder Removal,08/11/2024,1,24/11/2024,16,1,11/01/2025,Converted,15+ Days,6500,6500,6500
+2565,Hospital D,Dr Sarah Lewis,Cataract Surgery,30/03/2024,1,26/04/2024,27,0,,Consulted,15+ Days,2200,0,0
+2566,Hospital C,Dr Aisha Khan,Endoscopy,10/01/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2567,Hospital D,Dr Priya Patel,Colonoscopy,10/10/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2568,Hospital D,Dr Daniel Wright,Colonoscopy,11/08/2024,1,31/08/2024,20,1,06/10/2024,Converted,15+ Days,2400,2400,2400
+2569,Hospital A,Dr Michael Thompson,Knee Replacement,02/11/2024,1,16/11/2024,14,1,10/12/2024,Converted,8–14 Days,9800,9800,9800
+2570,Hospital A,Dr Priya Patel,Cataract Surgery,07/09/2024,1,28/09/2024,21,0,,Consulted,15+ Days,2200,0,0
+2571,Hospital D,Dr Daniel Wright,Colonoscopy,24/03/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2572,Hospital A,Dr Aisha Khan,Hernia Repair,08/01/2024,1,01/02/2024,24,1,15/03/2024,Converted,15+ Days,3200,3200,3200
+2573,Hospital C,Dr James Carter,Gallbladder Removal,10/02/2024,1,28/02/2024,18,1,06/03/2024,Converted,15+ Days,6500,6500,6500
+2574,Hospital A,Dr Michael Thompson,Cataract Surgery,11/10/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2575,Hospital D,Dr Daniel Wright,Endoscopy,16/09/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2576,Hospital B,Dr Michael Thompson,Knee Replacement,21/04/2024,1,29/04/2024,8,1,05/06/2024,Converted,8–14 Days,9800,9800,9800
+2577,Hospital C,Dr James Carter,Hernia Repair,10/05/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2578,Hospital B,Dr Sarah Lewis,Hip Replacement,26/02/2024,1,04/03/2024,7,0,,Consulted,0–7 Days,12500,0,0
+2579,Hospital D,Dr Daniel Wright,Colonoscopy,22/08/2024,1,17/09/2024,26,0,,Consulted,15+ Days,2400,0,0
+2580,Hospital B,Dr Sarah Lewis,Gallbladder Removal,13/06/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2581,Hospital A,Dr Michael Thompson,Cataract Surgery,03/09/2024,1,21/09/2024,18,0,,Consulted,15+ Days,2200,0,0
+2582,Hospital C,Dr Michael Thompson,Hip Replacement,17/08/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2583,Hospital D,Dr Aisha Khan,Knee Replacement,14/04/2024,1,11/05/2024,27,1,19/05/2024,Converted,15+ Days,9800,9800,9800
+2584,Hospital C,Dr Sarah Lewis,Hernia Repair,27/11/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2585,Hospital B,Dr Sarah Lewis,Knee Replacement,03/12/2024,1,01/01/2025,29,1,10/01/2025,Converted,15+ Days,9800,9800,9800
+2586,Hospital C,Dr Michael Thompson,Knee Replacement,06/08/2024,1,14/08/2024,8,0,,Consulted,8–14 Days,9800,0,0
+2587,Hospital C,Dr Aisha Khan,Knee Replacement,15/01/2024,0,,,0,,Enquiry Only,No Consultation,9800,0,0
+2588,Hospital B,Dr Aisha Khan,Colonoscopy,20/06/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2589,Hospital C,Dr Aisha Khan,Cataract Surgery,09/08/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2590,Hospital B,Dr Aisha Khan,Hernia Repair,10/07/2024,1,28/07/2024,18,1,11/10/2024,Converted,15+ Days,3200,3200,3200
+2591,Hospital A,Dr Priya Patel,Cataract Surgery,16/04/2024,1,15/05/2024,29,0,,Consulted,15+ Days,2200,0,0
+2592,Hospital D,Dr Sarah Lewis,Hip Replacement,27/01/2024,1,18/02/2024,22,0,,Consulted,15+ Days,12500,0,0
+2593,Hospital C,Dr James Carter,Colonoscopy,22/08/2024,1,24/08/2024,2,0,,Consulted,0–7 Days,2400,0,0
+2594,Hospital D,Dr Sarah Lewis,Endoscopy,03/04/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2595,Hospital D,Dr Sarah Lewis,Hernia Repair,18/11/2024,1,17/12/2024,29,1,05/01/2025,Converted,15+ Days,3200,3200,3200
+2596,Hospital D,Dr Priya Patel,Hip Replacement,07/03/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2597,Hospital B,Dr Aisha Khan,Gallbladder Removal,05/03/2024,1,26/03/2024,21,0,,Consulted,15+ Days,6500,0,0
+2598,Hospital B,Dr Sarah Lewis,Hernia Repair,14/04/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2599,Hospital B,Dr Priya Patel,Cataract Surgery,25/09/2024,1,21/10/2024,26,0,,Consulted,15+ Days,2200,0,0
+2600,Hospital B,Dr James Carter,Colonoscopy,07/07/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2601,Hospital B,Dr Michael Thompson,Cataract Surgery,11/03/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2602,Hospital C,Dr Daniel Wright,Gallbladder Removal,15/03/2024,1,24/03/2024,9,1,31/03/2024,Converted,8–14 Days,6500,6500,6500
+2603,Hospital D,Dr Michael Thompson,Hip Replacement,29/06/2024,1,24/07/2024,25,0,,Consulted,15+ Days,12500,0,0
+2604,Hospital D,Dr Michael Thompson,Hernia Repair,26/02/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2605,Hospital B,Dr Sarah Lewis,Hip Replacement,08/03/2024,1,23/03/2024,15,0,,Consulted,15+ Days,12500,0,0
+2606,Hospital C,Dr Sarah Lewis,Hip Replacement,14/08/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2607,Hospital A,Dr Priya Patel,Hernia Repair,21/08/2024,1,05/09/2024,15,0,,Consulted,15+ Days,3200,0,0
+2608,Hospital D,Dr James Carter,Cataract Surgery,22/07/2024,1,10/08/2024,19,1,03/11/2024,Converted,15+ Days,2200,2200,2200
+2609,Hospital A,Dr James Carter,Cataract Surgery,13/09/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2610,Hospital D,Dr Aisha Khan,Hernia Repair,19/05/2024,1,31/05/2024,12,1,14/06/2024,Converted,8–14 Days,3200,3200,3200
+2611,Hospital D,Dr Aisha Khan,Hip Replacement,21/05/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2612,Hospital A,Dr Priya Patel,Hernia Repair,27/05/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
+2613,Hospital D,Dr James Carter,Knee Replacement,02/11/2024,1,09/11/2024,7,0,,Consulted,0–7 Days,9800,0,0
+2614,Hospital A,Dr Michael Thompson,Cataract Surgery,27/01/2024,0,,,0,,Enquiry Only,No Consultation,2200,0,0
+2615,Hospital D,Dr Daniel Wright,Colonoscopy,30/12/2024,1,15/01/2025,16,0,,Consulted,15+ Days,2400,0,0
+2616,Hospital A,Dr Michael Thompson,Colonoscopy,12/05/2024,1,03/06/2024,22,1,08/08/2024,Converted,15+ Days,2400,2400,2400
+2617,Hospital B,Dr Priya Patel,Gallbladder Removal,20/04/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2618,Hospital B,Dr Priya Patel,Cataract Surgery,25/08/2024,1,28/08/2024,3,0,,Consulted,0–7 Days,2200,0,0
+2619,Hospital A,Dr Priya Patel,Knee Replacement,20/10/2024,1,02/11/2024,13,1,22/11/2024,Converted,8–14 Days,9800,9800,9800
+2620,Hospital C,Dr Daniel Wright,Colonoscopy,29/10/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2621,Hospital C,Dr Sarah Lewis,Knee Replacement,31/08/2024,1,09/09/2024,9,1,11/11/2024,Converted,8–14 Days,9800,9800,9800
+2622,Hospital B,Dr Priya Patel,Gallbladder Removal,29/05/2024,1,20/06/2024,22,0,,Consulted,15+ Days,6500,0,0
+2623,Hospital B,Dr Sarah Lewis,Endoscopy,23/09/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2624,Hospital C,Dr Priya Patel,Cataract Surgery,02/03/2024,1,15/03/2024,13,1,12/04/2024,Converted,8–14 Days,2200,2200,2200
+2625,Hospital B,Dr Aisha Khan,Gallbladder Removal,29/06/2024,0,,,0,,Enquiry Only,No Consultation,6500,0,0
+2626,Hospital C,Dr Michael Thompson,Colonoscopy,16/09/2024,1,02/10/2024,16,1,31/10/2024,Converted,15+ Days,2400,2400,2400
+2627,Hospital B,Dr Sarah Lewis,Hernia Repair,01/04/2024,1,11/04/2024,10,0,,Consulted,8–14 Days,3200,0,0
+2628,Hospital B,Dr Sarah Lewis,Hernia Repair,20/12/2024,1,12/01/2025,23,0,,Consulted,15+ Days,3200,0,0
+2629,Hospital A,Dr Priya Patel,Knee Replacement,15/06/2024,1,20/06/2024,5,0,,Consulted,0–7 Days,9800,0,0
+2630,Hospital C,Dr Daniel Wright,Endoscopy,08/12/2024,0,,,0,,Enquiry Only,No Consultation,1800,0,0
+2631,Hospital C,Dr Aisha Khan,Cataract Surgery,05/08/2024,1,30/08/2024,25,0,,Consulted,15+ Days,2200,0,0
+2632,Hospital A,Dr Aisha Khan,Hip Replacement,14/10/2024,1,30/10/2024,16,0,,Consulted,15+ Days,12500,0,0
+2633,Hospital C,Dr James Carter,Hernia Repair,04/08/2024,1,27/08/2024,23,0,,Consulted,15+ Days,3200,0,0
+2634,Hospital B,Dr Sarah Lewis,Cataract Surgery,16/09/2024,1,02/10/2024,16,1,28/12/2024,Converted,15+ Days,2200,2200,2200
+2635,Hospital C,Dr Aisha Khan,Knee Replacement,11/03/2024,1,12/03/2024,1,0,,Consulted,0–7 Days,9800,0,0
+2636,Hospital A,Dr Daniel Wright,Knee Replacement,23/11/2024,1,17/12/2024,24,0,,Consulted,15+ Days,9800,0,0
+2637,Hospital B,Dr Priya Patel,Colonoscopy,23/12/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2638,Hospital B,Dr Sarah Lewis,Hernia Repair,29/02/2024,1,26/03/2024,26,0,,Consulted,15+ Days,3200,0,0
+2639,Hospital D,Dr Aisha Khan,Endoscopy,15/06/2024,1,10/07/2024,25,0,,Consulted,15+ Days,1800,0,0
+2640,Hospital D,Dr James Carter,Hernia Repair,20/09/2024,1,15/10/2024,25,0,,Consulted,15+ Days,3200,0,0
+2641,Hospital A,Dr Aisha Khan,Cataract Surgery,27/06/2024,1,26/07/2024,29,1,14/10/2024,Converted,15+ Days,2200,2200,2200
+2642,Hospital C,Dr Sarah Lewis,Hip Replacement,09/05/2024,1,19/05/2024,10,0,,Consulted,8–14 Days,12500,0,0
+2643,Hospital B,Dr Michael Thompson,Endoscopy,11/04/2024,1,22/04/2024,11,0,,Consulted,8–14 Days,1800,0,0
+2644,Hospital A,Dr Aisha Khan,Hip Replacement,15/01/2024,0,,,0,,Enquiry Only,No Consultation,12500,0,0
+2645,Hospital B,Dr Sarah Lewis,Hip Replacement,19/04/2024,1,05/05/2024,16,0,,Consulted,15+ Days,12500,0,0
+2646,Hospital D,Dr James Carter,Colonoscopy,24/09/2024,1,20/10/2024,26,1,06/01/2025,Converted,15+ Days,2400,2400,2400
+2647,Hospital D,Dr Aisha Khan,Colonoscopy,14/06/2024,0,,,0,,Enquiry Only,No Consultation,2400,0,0
+2648,Hospital D,Dr Aisha Khan,Colonoscopy,21/09/2024,1,07/10/2024,16,1,09/12/2024,Converted,15+ Days,2400,2400,2400
+2649,Hospital A,Dr Priya Patel,Hip Replacement,09/07/2024,1,05/08/2024,27,1,08/09/2024,Converted,15+ Days,12500,12500,12500
+2650,Hospital C,Dr James Carter,Hernia Repair,12/03/2024,0,,,0,,Enquiry Only,No Consultation,3200,0,0
