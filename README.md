@@ -1,29 +1,58 @@
 # Self-Pay Conversion Analysis
 
-This project explores enquiry-to-surgery conversion performance using a synthetic private healthcare dataset.
+This project analyses self-pay patient enquiries to understand the factors that influence conversion from enquiry to surgery.
 
-The aim was to understand how operational factors — such as consultation delay, procedure type, and hospital performance — influence both conversion rates and revenue outcomes.
+Using a synthetic private healthcare dataset, the analysis explores how operational factors — such as consultation delay, procedure type, hospital site, and consultant performance — impact both conversion rates and revenue outcomes.
 
 ---
 
 ## Project Focus
 
-The analysis looks at:
+The analysis investigates key drivers of self-pay conversion performance, including:
 
-- Overall conversion from enquiry to surgery  
-- Differences in performance across hospitals and consultants  
-- Revenue concentration by procedure  
-- The impact of consultation delay on likelihood of conversion  
+- Patient funnel progression from enquiry to consultation to surgery
+- Differences in performance across hospital sites
+- Revenue contribution by procedure type
+- Consultant-level conversion performance
+- The impact of consultation delay on likelihood of conversion
 
-Rather than focusing on data cleaning, this project centres on structuring the data for meaningful operational analysis.
+Rather than focusing on data cleaning, this project centres on structuring the dataset to enable meaningful operational analysis and performance measurement.
 
 ---
 
 ## Tools Used
 
-- Excel – creation of derived metrics and modelling layer  
-- Google Sheets – exploratory analysis  
-- Looker Studio – dashboard visualisation  
+- Excel – data processing, pivot table analysis, and modelling layer
+- Google Sheets – exploratory analysis
+- Looker Studio – dashboard visualisation
+- GitHub – project documentation and version control
+
+---
+
+## Project Workflow
+
+This project follows a structured analytical workflow:
+
+1. **Data Preparation**
+   - A synthetic private healthcare group dataset was generated to simulate self-pay patient enquiries and surgical pathways.
+
+2. **Data Processing**
+   - Additional analytical fields were created in the processed dataset to support analysis, including:
+     - `funnel_stage`
+     - `consultation_delay_days`
+     - `delay_bucket`
+     - `revenue_per_enquiry`
+
+3. **Exploratory Analysis**
+   - Pivot tables were used to analyse:
+     - Patient funnel progression
+     - Hospital performance
+     - Procedure revenue contribution
+     - Consultant conversion performance
+     - The impact of consultation delays on conversion
+
+4. **Insight Generation**
+   - Key operational insights were documented in:
 
 ---
 
@@ -53,7 +82,7 @@ These fields were created to enable clearer segmentation and performance measure
 
 ## What This Project Demonstrates
 
-- Structured data modelling using spreadsheet tools  
-- Funnel analysis and KPI development  
-- Linking operational behaviour to financial outcomes  
-- Translating data into practical business insight  
+- Structuring raw operational data for analytical use
+- Building funnel analysis and performance metrics using spreadsheet tools
+- Linking operational healthcare activity to revenue outcomes
+- Translating exploratory analysis into practical business insight
