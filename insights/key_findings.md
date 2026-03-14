@@ -18,7 +18,9 @@ Out of **650 enquiries**, only **414 progressed to consultation**, while **236 e
 Once a consultation takes place, the likelihood of conversion increases significantly.  
 Among the **414 patients who attended consultation, 177 proceeded to surgery**, giving a **consultation-to-surgery conversion rate of 43%**.
 
-This suggests the biggest opportunity to improve performance is **getting more enquiries to consultation**, rather than improving post-consultation conversion.
+This suggests the biggest opportunity to improve performance is **getting more enquiries to consultation**, rather than improving post-consultation conversion. 
+
+This pattern is explored further in the consultation delay analysis, which shows that conversion rates remain relatively strong once a consultation takes place.
 
 ---
 
@@ -78,7 +80,7 @@ This suggests that **site-level processes or operational factors may play a larg
 
 ## 5. Faster Consultations Are Linked to Higher Conversion
 
-Consultation timing appears to influence conversion outcomes.
+Consultation timing shows some variation in conversion outcomes, but the most significant factor is whether a consultation takes place at all.
 
 | Consultation Delay | Enquiries | Conversions | Conversion Rate |
 |---|---|---|---|
@@ -87,9 +89,11 @@ Consultation timing appears to influence conversion outcomes.
 15+ Days | 226 | 93 | 41% |
 No Consultation | 236 | 0 | 0% |
 
-Patients who receive consultations within **two weeks of enquiry convert at significantly higher rates than the overall average conversion rate of 27%**.
+Across all delay groups where a consultation occurred, conversion rates remain relatively consistent at around 41–48%.
 
-This indicates that **reducing consultation waiting times may help improve overall conversion performance.**
+However, 236 enquiries never progressed to consultation, representing the largest drop-off in the patient pathway.
+
+This suggests that the biggest opportunity to improve conversion performance lies in **ensuring more enquiries progress to consultation**, rather than focusing solely on reducing consultation delays.
 
 ---
 
