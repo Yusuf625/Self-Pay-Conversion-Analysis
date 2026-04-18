@@ -2,7 +2,7 @@
 
 This project analyses self-pay patient enquiries to understand the factors that influence conversion from enquiry to surgery.
 
-Using a synthetic private healthcare dataset, the analysis explores how operational factors — such as consultation delay, procedure type, hospital site, and consultant performance — impact both conversion rates and revenue outcomes.
+Using a synthetic private healthcare dataset, the analysis explores how operational factors — such as consultation delay, procedure type, hospital site, and consultant performance impact both conversion rates and revenue outcomes.
 
 ---
 
